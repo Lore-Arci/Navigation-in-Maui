@@ -20,4 +20,9 @@ public partial class Page2 : ContentPage
         //Animation of closing of the second page from the high
         Navigation.PopModalAsync();
     }
+    protected override bool OnBackButtonPressed()
+    {
+        // Prevent going back to previous pages
+        return true;
+    }
 }

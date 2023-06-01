@@ -20,4 +20,9 @@ public partial class Page3 : ContentPage
         //Animation of entering of the Home from the low
         Navigation.PushModalAsync(new MainPage());
     }
+    protected override bool OnBackButtonPressed()
+    {
+        // Prevent going back to previous pages
+        return true;
+    }
 }
