@@ -18,7 +18,7 @@
             <!--Button to nav page 1-->
             <Button
                 Style="{StaticResource FormattazioneButton}"
-                Text="Go to nav page 1"
+                Text="Close me"
                 Clicked="ButtonToBack_Clicked"/>
             <!--Button to page 3-->
             <Button

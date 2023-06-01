@@ -23,7 +23,7 @@
             <!--Button to page 3-->
             <Button
                 Style="{StaticResource FormattazioneButton}"
-                Text="Go to nave page 2"
+                Text="Close me"
                 Clicked="ButtonToBack_Clicked"/>
         </StackLayout>
     </VerticalStackLayout>
