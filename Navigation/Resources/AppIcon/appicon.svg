@@ -1,9 +1,9 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456 456" width="456" height="456">
 	<title>appicon-svg</title>
 	<defs>
-		<image  width="456" height="456" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcgAAAHIAQMAAADwb+ipAAAAAXNSR0IB2cksfwAAAANQTFRFAQEByKRWOgAAADBJREFUeJztwTEBAAAAwqD1T20MH6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4G9nUAABGqoTOQAAAABJRU5ErkJggg=="/>
+		<image  width="456" height="456" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcgAAAHIAQMAAADwb+ipAAAAAXNSR0IB2cksfwAAAANQTFRFNFl1zw4TOAAAADBJREFUeJztwTEBAAAAwqD1T20MH6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4G9nUAABGqoTOQAAAABJRU5ErkJggg=="/>
 	</defs>
 	<style>
 	</style>
-	<use id="Livello 1" href="#img1" x="0" y="0"/>
+	<use id="Livello 2" href="#img1" x="0" y="0"/>
 </svg>
