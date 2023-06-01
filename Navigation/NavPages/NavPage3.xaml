@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation.NavPage3"
+             Title="NavPage3"
+             BackgroundColor="White">
+    <!--Button formattation-->
+    <ContentPage.Resources>
+        <Style TargetType="Button" x:Key="FormattazioneButton">
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="BackgroundColor" Value="Salmon"/>
+        </Style>
+    </ContentPage.Resources>
+    <VerticalStackLayout>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="40" Spacing="20">
+            <!--Button to nav page 1-->
+            <Button
+                Style="{StaticResource FormattazioneButton}"
+                Text="Go to nav page 1"
+                Clicked="ButtonToNavPage1_Clicked"/>
+            <!--Button to page 3-->
+            <Button
+                Style="{StaticResource FormattazioneButton}"
+                Text="Go to nave page 2"
+                Clicked="ButtonToBack_Clicked"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
