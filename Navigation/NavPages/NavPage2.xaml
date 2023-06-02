@@ -15,16 +15,16 @@
     </ContentPage.Resources>
     <VerticalStackLayout>
         <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="40" Spacing="20">
-            <!--Button to nav page 1-->
-            <Button
-                Style="{StaticResource FormattazioneButton}"
-                Text="Close me"
-                Clicked="ButtonToBack_Clicked"/>
             <!--Button to page 3-->
             <Button
                 Style="{StaticResource FormattazioneButton}"
                 Text="Go to nave page 3"
                 Clicked="ButtonToNavePage3_Clicked"/>
+            <!--Button to nav page 1-->
+            <Button
+                Style="{StaticResource FormattazioneButton}"
+                Text="Close me"
+                Clicked="ButtonToBack_Clicked"/>
         </StackLayout>
     </VerticalStackLayout>
 </ContentPage>
