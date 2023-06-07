@@ -8,7 +8,7 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		//MainPage = new NavigationPage(new NavPage1());
-		MainPage = new AppShell();
+		MainPage = new NavigationPage(new NavPage1());
+		//MainPage = new AppShell();
 	}
 }
