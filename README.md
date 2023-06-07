@@ -5,5 +5,5 @@ There are six content pages => three for type
  - Then other three in the NavPages' folder have a navbar type navigation.
 
 They are devided: 
-  1) To see the first type you have to set as the MainPage the "MainPage" in the app.xaml.cs
-  2) To see the second type you have to set as the MainPage the "NavPage1" in the app.xaml.cs
+  1) To see the first type you have to set as the MainPage the "MainPage" in the app.xaml.cs => MainPage = new AppShell();
+  2) To see the second type you have to set as the MainPage the "NavPage1" in the app.xaml.cs => MainPage = new NavigationPage(new NavPage1());
