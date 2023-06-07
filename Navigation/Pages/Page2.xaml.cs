@@ -15,7 +15,7 @@ public partial class Page2 : ContentPage
     }
 
     //Click button to page Home
-    private void ButtonToHome_Clicked(object sender, EventArgs e)
+    private void ButtonToBack_Clicked(object sender, EventArgs e)
     {
         //Animation of closing of the second page from the high
         Navigation.PopModalAsync();

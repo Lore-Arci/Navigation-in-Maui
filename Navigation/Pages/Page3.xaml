@@ -28,13 +28,13 @@
             <!--Button to page 3-->
             <Button
                 Style="{StaticResource FormattazioneButton}"
-                Text="Go to page 2"
-                Clicked="ButtonToPage2_Clicked"/>
+                Text="Go to page Home"
+                Clicked="ButtonToHome_Clicked"/>
             <!--Button to page Home-->
             <Button
                 Style="{StaticResource FormattazioneButton}"
-                Text="HomePage"
-                Clicked="ButtonToHome_Clicked"/>
+                Text="Close me"
+                Clicked="ButtonToBack_Clicked"/>
         </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

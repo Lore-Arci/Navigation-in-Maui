@@ -33,8 +33,8 @@
             <!--Button to page Home-->
             <Button
                 Style="{StaticResource FormattazioneButton}"
-                Text="HomePage"
-                Clicked="ButtonToHome_Clicked"/>
+                Text="Close Me"
+                Clicked="ButtonToBack_Clicked"/>
         </StackLayout>
     </VerticalStackLayout>
 </ContentPage>
