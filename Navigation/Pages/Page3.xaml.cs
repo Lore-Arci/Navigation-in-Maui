@@ -11,7 +11,7 @@ public partial class Page3 : ContentPage
     private void ButtonToPage2_Clicked(object sender, EventArgs e)
     {
         //Animation of entering of the second page from the low
-        Navigation.PopModalAsync();
+        Navigation.PushModalAsync(new Page2());
     }
 
     //Click button to page Home
